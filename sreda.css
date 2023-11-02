@@ -1,0 +1,69 @@
+body {
+    width: 900px;
+    margin:0 auto;
+}
+.navbar {
+    background-color: rgb(201, 31, 31);
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+    gap: 10px;
+    padding: 5px;
+    flex-direction: row-reverse;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1px;
+}
+li:hover {
+    cursor: pointer;
+}
+.img1 {
+    width: 100%;
+}
+.flex-contish {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
+.kartica {
+    width: 32%;
+    height: 70%;
+    color: rgb(47, 120, 120);
+}
+.kartica div {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.red {
+    background-color: brown;
+}
+.zuta {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+    flex-direction: column;
+}
+.orange {
+    background-color: orange;
+}
+.purple {
+    background-color: purple;
+}
+.green {
+    background-color: green;
+}
+.futer {
+    background-color: rgb(47, 120, 120);
+    width: 100%;
+    padding: 5px;
+    color: antiquewhite;
+    padding-left: 20px;
+}

@@ -1,0 +1,30 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+.prvi {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+img {
+    width: 100px;
+}
+.drugi{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    width: 49%;
+    
+}
+.treci{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.flex{
+    display: flex;
+    justify-content: end;
+}
+.posts{
+    border-left: 3px solid black;
+    padding-left: 20px;
+    width: 49%;
+}
